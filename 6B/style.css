@@ -51,44 +51,81 @@ nav a {
 	color: #FFF;
 	text-decoration: none;
 }
+nav a:hover {
+	color: red;
+	text-decoration: underline;
+}
 
 #content {
-	display: grid;
+	display: flex;
 }
 section {
 	width: 70%;
 	height: auto;
 	overflow: hidden;
 	float: left;
+	padding: 15px;
 }
 
 aside {
-	width: 30%;
-	max-width: 380px;
-	height: 100%;
+	width: 25%;
+	max-width: 300px;
+	height: inherit;
 	float: left;
+	background-color: #3687AC;
+	padding: 12px;
 }
 #sidebar {
-	position: relative;
-	float: left;
-	width: 100%;
+	width: 90%;
 	max-width: 300px;
-	margin-right: 0px;
+	line-height: 1.3em;
+	margin-top: 38px;
+	color: cyan;
+}
+#sidebar a {
+	text-decoration: none;
+	color: #D5F8F8;
+}
+#sidebar a:hover {
+	text-decoration: none;
+	color: #FFF;
 }
 
-footer, #footer {
-	border-top: 1px dotted #666;
+#sidebar a:after {
+  	color: #FFF;
+  	content: '»';
+  	position: relative;
+  	opacity: 0;  
+  	left: 5px;
+  	transition: 0.5s;
+}
+
+#sidebar a:hover{
+
+}
+
+#sidebar a:hover:after {
+	opacity: 1;
+  	right: 10px;
+}
+
+
+footer {
+	border-top: 3px dotted #3687AC;
+	padding-top: 7px;
 	clear: both;
 	width: 100%;
+	font-size: 1em;
+	font-style: italic;
+	margin-top: -3px;
+	line-height: 1.2em;
 }
 
 h1 {
 	font-size: 2.2em;
-	border: 2px solid #6FB3D3;
 }
 
 h2 {
-	border: 2px dashed #6FB3D3;
 }
 article {
 	width:  100%;
@@ -100,12 +137,10 @@ article {
 article p {
 	padding-top: 6px;
 	font-size: 1.2em;
-	border: 2px solid #FFF;
-	border-radius: 3px;
 	width: 63%;
 	overflow: hidden;
 	padding-bottom: 12px;
-	padding-left: 12px;
+
 }
 p.wide {
 	width: 96%;

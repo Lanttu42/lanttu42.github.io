@@ -2,51 +2,53 @@
 <html lang="fi">
 <head>
 <meta charset="UTF-8">
-<title>5B - The Layout - Second page</title>
+<title>6B - Page Layout Continues</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <div id="header">
     <div ID="SiteInfo"><img src="kirppu.jpg" class="logo" title="5B Kirppu"></div>
-    <span class="SiteTitle">5B - The Layout</span><br><span class="Description">Semanttista koodia</span>
+    <span class="SiteTitle">HTML-tehtäviä</span><br><span class="Description">Semanttista koodia</span>
 </div>
 <nav>
-  <a href="index.html" title="T&auml;st&auml; takaisin alkuun">Aloitussivu</a> | Toinen sivu
+  <a href="index.html" title="T&auml;st&auml; takaisin alkuun">Aloitussivu</a> | Toinen sivu | <a href="third.html" title="Kolmas sivu">Kolmas sivu</a>
 </nav>
 
 <div id="content">
-<section>
-  <header>
-    <h1>Headers, Articles, Figures... Action</h1>
-  </header>
-    <article>
+<aside>
+    <div id="sidebar">
+      <h3>Sidebar</h3>
+      <p>Upeita linkkejä joihinkin kivoihin juttuihin!</p>
+      <a href="https://jigsaw.w3.org/css-validator/" title="SeeÄsssÄssTarkistuss" target="_blank">CSS Validaattori</a><br>
+      <a href="https://validator.w3.org/" title="Tarkista sun hötömölöö" target="_blank">HTML Validaattori</a>
+    </div>
+</aside>
 
+<section>
+
+    <article>
+    <header>
+      <h1>Headers, Articles, Figures... Action</h1>
+    </header>
       <figure class="kuvitus">
         <img src="peukku.jpg" title="Hyvin meni">
         <figcaption>Peukkukuva. (Soveltaen koko k&auml;mmen 2022)</figcaption>
       </figure>
       <p>Olemme tulleet 5B-kohtaan. T&auml;ss&auml; vaiheessa el&auml;m&auml;&auml; teemme sis&auml;lt&ouml;&auml; k&auml;ytt&auml;en tageja, joilla ohjataan ulkon&auml;k&ouml;&auml;, hakukoneita ja toisinaan my&ouml;s kehitt&auml;ji&auml;. T&auml;ss&auml; kyseisess&auml; upeassa koodinmuunnoksessa ollaan laitettu hieman ehk&auml; tavanomaisuudesta poiketen Header tagi sivun yl&auml;osaan, ymp&auml;r&ouml;im&auml;&auml;n koko sivun headeria.</p>
-    </article>
-    <article>
       <h2>Ja sitten toinen kappale</h2>
       <p class="wide"><img src="kirppu.jpg" title="Ei oo bugeja">T&auml;m&auml; on nyt  Second.html kuvalla.</p>
     </article>
 </section> 
 
-<aside>
-    <div id="rbar">
-      <h3>Sidebar</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-</aside>
 </div>
+
 
 <footer>
   <div id="footer">
     <label>Ollaanks me siell&auml; jo?</label>
     <progress value="51" max="100"> 51% </progress>
     <br>
-    Olispa footterii. En jaksanut t&auml;t&auml; laittaa pysym&auml;&auml;n alhaalla, joten t&auml;m&auml; footeri nyt el&auml;&auml; mukana.
+    Olispa footterii &copy; Anders Nylander - Laurea 2022
 
   </div>
 </footer>

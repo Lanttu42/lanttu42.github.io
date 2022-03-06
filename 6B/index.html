@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <html lang="fi">
 <head>
-<title>5B - The Layout</title>
+<title>6B - Page Layout Continues</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <div id="header">
     <div ID="SiteInfo"><img src="kirppu.jpg" class="logo" title="5B Kirppu"></div>
-    <span class="SiteTitle">5B - The Layout</span><br><span class="Description">Semanttista koodia</span>
+    <span class="SiteTitle">HTML-tehtäviä</span><br><span class="Description">Semanttista koodia</span>
 </div>
 <nav>
-  Aloitussivu | <a href="second.html" title="T&auml;st&auml; toiselle sivulle">Toinen sivu</a> 
+  Aloitussivu |  <a href="second.html" title="T&auml;st&auml; toiselle sivulle">Toinen sivu</a> | <a href="third.html" title="Kolmas sivu">Kolmas sivu</a>
 </nav>
 
-
 <div id="content">
+<aside>
+    <div id="sidebar">
+      <h3>Sidebar</h3>
+      <p>Upeita linkkejä joihinkin kivoihin juttuihin!</p>
+      <a href="https://jigsaw.w3.org/css-validator/" title="SeeÄsssÄssTarkistuss" target="_blank">CSS Validaattori</a><br>
+      <a href="https://validator.w3.org/" title="Tarkista sun hötömölöö" target="_blank">HTML Validaattori</a>
+    </div>
+</aside>
+
 <section>
   <header>
     <h1>T&auml;ss&auml; olisi nyt otsikko</h1>
   </header>
   <article>
-    <p>Ja t&auml;m&auml; olisi niin kuin leikisti sitten sen otsikon kappale.</p>
+    <p>Ja t&auml;m&auml; olisi niin kuin leikisti sitten sen otsikon kappale. Huomaathan, että sivuille on ilmestynyt myös Toinen ja Kolmas sivu</p>
       <ul>
         <li>Eka pallukka</li>
         <li>Toka pallukka</li>
@@ -34,20 +42,16 @@
   </article>
 </section> 
 
-<aside>
-    <div id="rbar">
-      <h3>Sidebar</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-</aside>
+
 </div>
+
 
 <footer>
   <div id="footer">
     <label>Ollaanks me siell&auml; jo?</label>
     <progress value="51" max="100"> 51% </progress>
     <br>
-    Olispa footterii. En jaksanut t&auml;t&auml; laittaa pysym&auml;&auml;n alhaalla, joten t&auml;m&auml; footeri nyt el&auml;&auml; mukana.
+    Olispa footterii &copy; Anders Nylander - Laurea 2022
 
   </div>
 </footer>
