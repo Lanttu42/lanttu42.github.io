@@ -1,0 +1,22 @@
+body,html {
+	background: #DCDCDC;
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+	color: #4B4B4B;
+
+}
+
+* {
+	font-family: Helvetica, sans-serif;
+}
+
+#content {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 790px;
+	border-radius: 9px;
+	border: 2px solid #AAA;
+	background: #FFF;
+	padding: 25px;
+}
