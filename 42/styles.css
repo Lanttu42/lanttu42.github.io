@@ -21,7 +21,7 @@ body,html {
 	padding: 25px;
 }
 
-p {
+p, li {
 	font-size: 1.4rem;
 }
 
