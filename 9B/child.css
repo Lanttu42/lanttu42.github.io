@@ -1,0 +1,19 @@
+header {
+	padding-top: 45px;
+	padding-bottom: 45px;
+	background: #E8E8E8;
+
+}
+.centerthis {
+	text-align: center;
+}
+
+.col img {
+	width: 200px;
+	margin: 25px;
+}
+
+.square {
+	margin: 25px;
+	width: 175px;
+}
