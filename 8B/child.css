@@ -1,0 +1,121 @@
+body, html {
+	margin: 0px;
+	background: #FCFCF6;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+   	font-size: 16px;
+}
+* {
+	font-family: 'Nunito', sans-serif;
+}
+
+.row {
+	color: #000;
+	margin: 0px;
+}
+
+.logo img {
+	height: 65px;
+	margin-left: 4px;
+}
+
+header {
+	 background: #FFE916;
+	 padding-top: 13px;
+	 padding-bottom: 12px;
+}
+header .col {
+	margin: 15px;
+}
+
+#sitelogo {
+	position: relative;
+	float: left;
+	margin-right: 12px;
+	color: #000;
+}
+
+.carousel-inner {
+  	border-radius: 0px 0px 12px 12px;
+	max-height: 450px;
+
+}
+
+.sitetitle {
+	font-size: 2rem;
+	line-height: 2rem;
+	color: #000;
+	font-family: 'Fredoka', sans-serif;
+}
+.description {
+	font-size: 1.4rem;
+}
+
+
+.loginbtns {
+	text-align: right;
+	padding-top: 4px;
+}
+.btn {
+	margin-left: 25px;
+	-webkit-box-shadow: 0px -3px 15px -7px #000000; 
+	box-shadow: 0px -3px 10px -7px #000000;
+	border-radius: 8px;
+	border: 1px solid #999;
+
+}
+.call4act {
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+#page .btn {
+	margin-left: 25px;
+	-webkit-box-shadow: 0px 6px 15px -7px #000000; 
+	box-shadow: 0px 6px 15px -7px #000000;
+	border-radius: 8px;
+	border: 2px solid #999;
+	font-weight: bold;
+	margin: 0 auto;
+
+}
+
+footer {
+	margin-top: 25px;
+	border-top: 15px solid #FFE916;
+	padding-top: 15px;
+}
+
+h1 {
+	margin-top: 15px;
+}
+
+section p {
+	margin-top: 17px;
+}
+
+.navbar-nav li a {
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 1.2rem;
+
+}
+
+.navbar-nav .active a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.2rem;
+
+}
+
+
+.navbar-nav li a::after {
+    content: ">";
+    padding-left:1em;
+}
+.navbar-nav li:last-child a::after {
+    content: " ";
+    padding-left: 0px;
+}
