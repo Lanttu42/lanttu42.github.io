@@ -1,0 +1,63 @@
+body, html {
+	margin: 0px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 14px;
+	background: #CDF2D9;
+}
+.container {
+	margin: 25px;
+	padding: 25px;
+
+}
+
+
+table, th, td {
+	border: 1px solid green;
+	padding: 3px;
+
+}
+
+table {
+	width: 90%;
+	border: 2px solid blue;
+}
+td {
+	width: 32%;
+}
+th {
+	background: #CDF224;
+}
+
+.mycap {
+	caption-side: top;
+	font-size: 2rem;
+	font-weight: 600;
+}
+form label {
+	margin-top: 12px;
+	font-weight: 600;
+
+}
+small {
+	font-style: italic;
+}	
+
+.submitti {
+	margin-top: 12px;
+}
+
+.fixit {
+    position: static !important;
+    margin-left: 0 !important;
+ }
+ input[type='checkbox'] {
+    -webkit-appearance:none;
+    width:22px;
+    height:22px;
+    background:white;
+    border-radius:5px;
+    border:2px solid #555;
+}
+input[type='checkbox']:checked {
+    background: YELLOW;
+}
